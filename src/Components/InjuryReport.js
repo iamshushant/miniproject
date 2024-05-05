@@ -1747,13 +1747,13 @@ export default function InjuryReport(props) {
                       alignItems: "center",
                     }}
                   >
-                    <Typography variant="h6">Employee ID : </Typography>
+                    <Typography variant="h6">Jawaan ID : </Typography>
                     <Box sx={{ pb: 0, display: "flex", mx: 2 }}>
                       <Box className="search-box-1">
                         <Box className="search-tool-1" onClick={toggleHandler}>
                           {selectedOption
                             ? selectedOption
-                            : "Search for Employee ID"}
+                            : "Search for Jawaan ID"}
                           <ExpandMoreIcon />
                         </Box>
 
@@ -1764,7 +1764,7 @@ export default function InjuryReport(props) {
                                 type="text"
                                 name=""
                                 id=""
-                                placeholder="Search for Employee ID"
+                                placeholder="Search for Jawaan ID"
                                 className="inp-box inp-dr"
                                 value={inpValue}
                                 onChange={(e) => setInpValue(e.target.value)}
@@ -1807,7 +1807,7 @@ export default function InjuryReport(props) {
                   <Typography variant="h6">
                     {selectedDetails && (
                       <Box sx={{ my: 3 }}>
-                        Employee Name : {selectedDetails?.name}
+                        Jawaan Name : {selectedDetails?.name}
                       </Box>
                     )}
                   </Typography>
@@ -1839,7 +1839,7 @@ export default function InjuryReport(props) {
                 </Box>
               </Box>
 
-              <Box className="checks2 extra" sx={{ my: 2 }}>
+              {/* <Box className="checks2 extra" sx={{ my: 2 }}>
                 <Typography>Injury Details :</Typography>
                 <Typography
                   className="inner-box"
@@ -1859,7 +1859,7 @@ export default function InjuryReport(props) {
                   <CalendarMonthIcon sx={{ color: "red" }} />
                   first-aid:April 2, 2020; 13:20
                 </Typography>
-              </Box>
+              </Box>*/}
             </Box>
 
             <Box className="sec-2" sx={{ my: 1 }}>

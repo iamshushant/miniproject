@@ -334,7 +334,7 @@ export default function Nav() {
           >
             <ListItemButton sx={{ fontSize: "75px" }}>
               <ListItemText
-                primary="Employee Details"
+                primary="Jawaan Details"
                 sx={{ color: "black" }}
               />
             </ListItemButton>
